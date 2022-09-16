@@ -4,7 +4,7 @@ Containment zone Alerting Application
 Team ID : PNT2022TMID35197
 Team Size : 4
 ### Team Members
- - Team Leader : KARTHICKEYAN E
+ - Team Leader  : KARTHICKEYAN E
  - Team member : CHANDNI G
  - Team member : RISHI VISVAS T S G
  - Team member : VAANMATHI S 
