@@ -16,7 +16,7 @@ Team Size : 4
 > IBM Cloud,HTML,Javascript,IBM Cloud Object Storage,Python-Flask,Kubernetes,Docker,IBM DB2,IBM Container Registry
 
 
-## Project Idea: <img src="https://media2.giphy.com/media/i0HhgCcJE3GM8KGy4g/giphy.gif?cid=ecf05e47y8upop3gmngnos1u7hfqm8h6bpagzst3g7dhqixo&rid=giphy.gif&ct=s" width="30px">
+## Project Idea: 
    > This application is intended to provide information about containment zones in a particular region by alerting people, through continuous monitoring of an individual's location.  Key benefits of the application are monitoring people's activity and alerting them of their safety movements.
 
 ## Features of the Application
