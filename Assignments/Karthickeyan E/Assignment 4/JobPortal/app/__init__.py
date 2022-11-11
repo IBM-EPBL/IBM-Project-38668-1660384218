@@ -9,7 +9,7 @@ import ibm_db_dbi
 
 try:
     # ibm_db_conn = ibm_db.connect(conn_string, " ", " ")
-    ibm_db_conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=ba99a9e6-d59e-4883-8fc0-d6a8c9f7a08f.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud;PORT=31321;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;PROTOCOL=TCPIP;UID=brn49712;PWD=0FdOVA4BhvGBHGrN;", " ", " ")
+    ibm_db_conn = ibm_db.connect("conn_string", " ", " ")
     print("connected")
 except Exception as e:
     print(e)
