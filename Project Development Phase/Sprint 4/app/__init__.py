@@ -13,11 +13,11 @@ from sendgrid.helpers.mail import Mail
 app = Flask(__name__)
 
 # config
-app.secret_key = '''x19Tsxbexe7x8c_rx12Qx14x13qxb7'WTH0x9fxe4xecxb1'''
+app.secret_key = 'not so secret ket'
 app.config['MYSQL_HOST'] = 'remotemysql.com'
-app.config['MYSQL_USER'] = 'F5shCxBMxe'
-app.config['MYSQL_PASSWORD'] = 'g1rMHVIhIq'
-app.config['MYSQL_DB'] = 'F5shCxBMxe'
+app.config['MYSQL_USER'] = 'mysql_user'
+app.config['MYSQL_PASSWORD'] = 'password'
+app.config['MYSQL_DB'] = 'bludb'
 
 mysql = MySQL(app)
 
@@ -26,15 +26,15 @@ mysql = MySQL(app)
 
 def send_mail(email)
     print(email)
-    message = Mail(from_email='impriyanj@gmail.com',
+    message = Mail(from_email='get2me@gmail.com',
                    to_emails=email,
                    subject='caution',
                    plain_text_content='Please Stay Safe',
-                   html_content='h2You are entering into a containment Zoneh2')
+                   html_content='h2 You are entering into a containment Zone h2')
 
     try
         sg = SendGridAPIClient(
-            'SG.7BJDtQDlS8unH0r5_TufVQ.Ykpcz19QcqgcNwYZC3a0mNRPhGksG117YURqOTa2HL')
+            'SendGrid API key')
         response = sg.send(message)
         print(response.status.code)
         print(response.body)
